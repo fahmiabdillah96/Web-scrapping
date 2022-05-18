@@ -30,7 +30,7 @@ rb2 = driver.find_element(By.CSS_SELECTOR, ("input[type='radio'][value='3'][name
 rb2.click()
 
 # get the structured dummy data
-data_prev = pd.read_csv('data\init\Rekap_RS_new.csv')
+data_prev = pd.read_csv('data\Rekap_RS_new.csv')
 
 for m in range(0,12):
     # GET BULAN TAHUN
